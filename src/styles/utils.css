@@ -1,0 +1,69 @@
+:root {
+    font-size: 10px;
+    box-sizing: border-box;
+    --clr-white:#fff;
+    --theme-clr:#1f2028;
+    --overlay-clr: rgba(0, 0, 0, 0.75);
+    color: white;
+    --border-clr:#4b4c53;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Poppins', sans-serif;
+  }
+  ::-webkit-scrollbar {
+    width: 0.75rem;
+    height: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--clr-grey);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: var(--theme-clr);
+  }
+  
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .empty-page-image{
+    max-width: 45rem;
+    border-radius: 1rem;
+  }
+  .empty-page-title{
+    margin-bottom: 2rem;
+  }
+  .empty-page-box{
+    flex-direction: column;
+  }
+  .empty-page-box .btn{
+    margin: 1.5rem 0;
+  }
+  .space-between{
+    justify-content: space-between;
+  }
+  .border-radius {
+    border-radius: 5px;
+  }
+  .back-arrow {
+    width: 3.5rem;
+    height: 2.5rem;
+  }
+  .plain-btn {
+    color: var(--clr-white);
+    border: 2px solid var(--border-clr);
+    background-color: var(--theme-clr);
+    height: 3.5rem;
+  }
+  .plain-btn:hover {
+    background-color: var(--theme-clr);
+  }
+  .menu-icon-box > .icon.size-xs{
+    width: 2rem;
+    height: 2rem;
+  }
+ .top{
+   margin-top: 8rem;
+ }

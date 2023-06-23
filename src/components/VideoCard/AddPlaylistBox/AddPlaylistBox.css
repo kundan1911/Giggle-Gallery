@@ -1,0 +1,59 @@
+.add-playlist-box {
+  background-color: var(--theme-clr);
+  max-width: 30rem;
+  width: max-content;
+  flex-direction: column;
+  color: var(--clr-white);
+  z-index: 200;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.add-playlist-box .icon-close {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.checkbox {
+  border-radius: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  outline: none;
+  margin-right: 1rem;
+}
+.playlist-list {
+  align-items: flex-start;
+  flex-direction: column;
+}
+.add-playlist-box li {
+  margin: 1rem 0;
+  list-style-type: none;
+}
+.add-playlist-box .icon-box {
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+}
+.overlay-box {
+  position: fixed;
+  opacity: 1;
+  width: 100vw;
+  background: var(--overlay-clr);
+  height: 100%;
+  left: 0;
+  z-index: 200;
+  margin: 0;
+  top: 0;
+}
+.playlist-input{
+    margin: 5px 0;
+    border-bottom: 1px solid var(--border-clr);
+    font-size: 1.75rem;
+    background-color: var(--theme-clr);
+    width: 100%;
+    color: var(--clr-white);
+    padding: 5px;
+    max-width: 100%;
+}
+.create-playlist-btn{
+    margin-right: auto;
+}

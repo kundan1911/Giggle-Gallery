@@ -1,0 +1,22 @@
+
+.display-img-container{
+    margin-top: 0;
+    overflow: hidden;
+    height: 37rem;
+    border-radius: 5px;
+}
+.display-img-container img{
+    object-fit:cover;
+    object-position: center;
+}
+.display-img-container:hover{
+    transform: scale(1);
+}
+
+
+@media only screen and (max-width:32.5em){
+    .display-img-container{
+        height: max-content;
+    }
+}
+

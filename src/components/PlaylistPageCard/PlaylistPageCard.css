@@ -1,0 +1,23 @@
+.card-overlay-content{
+    color: var(--clr-white);
+    justify-content: center;
+    align-items: flex-end;
+}
+.content{
+    flex-direction: column;
+    background-color: var(--overlay-clr);
+    width: 30%;
+}
+.card-overlay{
+    box-shadow: var(--box-shadow-clr);
+    margin: 1rem;
+    min-width: 27rem;
+    max-width: 38rem;
+    max-height: fit-content;
+}
+.title{
+    color: var(--clr-white);
+}
+.title-icon-box{
+    padding-inline:2rem;
+}

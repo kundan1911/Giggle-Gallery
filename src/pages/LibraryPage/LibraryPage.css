@@ -1,0 +1,38 @@
+.short-page-container {
+  align-items: flex-start;
+  margin: 1rem 0;
+  font-weight: bold;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid;
+}
+
+.short-page-icon-box {
+  gap: 1rem;
+  border: 2px solid;
+  padding: 7.5px;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+}
+.short-video-card {
+  padding: 0 1rem;
+  width: 100%;
+  margin: 1rem 0;
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+.short-video-card .title {
+  font-size: 1.5rem;
+}
+
+.short-video-card .short-card .video-menu-btn{
+  display: none;
+}
+@media only screen and (max-width: 43.75em) {
+  .short-video-card .short-card{
+    min-width: 24rem;
+  }
+}

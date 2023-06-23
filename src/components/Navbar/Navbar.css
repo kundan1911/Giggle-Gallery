@@ -1,0 +1,121 @@
+@import url(../../styles/utils.css);
+.logo-container {
+  gap: 1rem;
+  padding-inline: 0;
+}
+
+.profile-box {
+  position: absolute;
+  top: 4.5rem;
+  width: 15rem;
+  left: -4rem;
+  max-width: 15rem;
+}
+.profile-box .btn {
+  margin: 2px 0;
+  cursor: pointer;
+  background-color: var(--theme-clr);
+  color: var(--clr-white);
+  border: 2px solid var(--clr-white);
+  font-size: 1.75rem;
+}
+.logo {
+  justify-self: flex-start;
+  cursor: pointer;
+  font-family: "Permanent Marker", cursive;
+  font-size: 3rem;
+  color: var(--primary-clr);
+  text-decoration: none;
+}
+.search-icon-container {
+  padding-right: 1rem;
+}
+.search-container .search-input {
+  width: 100%;
+  margin-right: 2rem;
+  color: var(--clr-white);
+}
+.search-btn {
+  top: 5px;
+  font-size: 2.65rem;
+}
+.search-container {
+  max-width: 50%;
+  width: 100%;
+  border-color: var(--clr-white);
+}
+.nav-section {
+  background-color: var(--theme-clr);
+  justify-content: space-between;
+  padding-inline: 4rem;
+}
+/*  Mobile Search Bar  */
+.search-bar-modal {
+  position: fixed;
+  transition: all 0.2s linear;
+  top: 0;
+  z-index: 100;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--overlay-clr);
+}
+
+.search-bar {
+  transition: all 0.2s linear;
+  height: 10rem;
+  background-color: var(--theme-clr);
+  position: absolute;
+  width: 100%;
+  padding: 2rem 3rem;
+  transform: translateY(-100%);
+}
+
+
+.search-bar {
+  transform: translateY(0);
+}
+.search-bar-heading {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.mobile-search-btn {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.search-bar-center {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--clr-grey);
+}
+
+.search-bar-center input {
+  font-family: inherit;
+  flex-grow: 1;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  background-color: var(--theme-clr);
+}
+.search-bar-center input:focus {
+  outline: none;
+}
+.search-bar-center button {
+  border: none;
+}
+.search-bar-center .btn {
+  background: none;
+  color: currentColor;
+}
+.search-wrapper {
+  gap: 1rem;
+}
+.mobile-search-btn {
+  display: none;
+}
+
+.icon.size-xs{
+  width: 2.5rem;
+  height: 2.5rem;
+}

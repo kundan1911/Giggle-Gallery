@@ -1,0 +1,58 @@
+.mobile-sidebar-container{
+    display: none;
+}
+@media only screen and (max-width:43.75em){
+    .sidebar-icon-container{
+        padding: 1rem;
+        width: 100%;
+        max-width: 100%;
+        cursor: pointer;
+        flex-direction: column;
+    }
+    .sidebar-icon-container .icon{
+        margin: 5px 0;
+        width:3rem;
+        height: 3rem;
+    }
+    .clock-icon.icon{
+        width: 2.5rem;
+        height: 3rem;
+    }
+    .sidebar-icon-container:hover{
+        background-color: var(--clr-grey);
+    }
+    .mobile-sidebar-container{
+        margin-left: 0;
+        justify-content: space-around;
+        width: 100vw;
+        flex-direction: row;
+        flex-shrink: 0;
+        background-color: var(--theme-clr);
+        top:auto;
+        z-index: 10;
+        bottom: -0.5px;
+        position: fixed;
+        display: flex;
+        box-shadow: var(--box-shadow-clr);
+        align-items: center;
+        height: 6rem;
+        max-height: 7rem; 
+    }
+    .sidebar-icon-container{
+        margin: 0;
+        padding: 0 5px;
+    }
+    .sidebar-icon-container .icon{
+        margin: 3px 0;
+        width:2.5rem;
+        height: 2.5rem;
+    }
+    .clock-icon.icon{
+        width: 2.25rem;
+        height: 2.75rem;
+    }
+    .nav-icon-txt{
+        font-size: 1.25rem;
+    }
+  
+}

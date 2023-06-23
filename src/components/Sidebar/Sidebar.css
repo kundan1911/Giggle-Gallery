@@ -1,0 +1,47 @@
+.sidebar-container{
+    flex-direction: column;
+    height: 100%;
+    top:8rem;
+    width: 12rem;
+    z-index: 10;
+    display: flex;
+    overflow-y: scroll;
+    position: sticky;
+    flex-shrink: 0;
+    background-color: var(--theme-clr);
+
+}
+.sidebar-container .sidebar-icon-container{
+    flex-direction: column;
+    padding: 7.5px;
+    width: 10rem;
+    max-width: 100%;
+    cursor: pointer;
+
+}
+.sidebar-icon-container .icon{
+    margin: 5px 0;
+    width:3rem;
+    height: 3rem;
+}
+.clock-icon.icon{
+    width: 2.5rem;
+    height: 3rem;
+}
+
+.sidebar-icon-container:hover{
+    background-color: var(--clr-grey);
+}
+
+@media only screen and (max-width:43.75em){
+   .sidebar-container{
+       display: none;
+   }
+}
+
+.active .sidebar-icon-container{
+    background-color: var(--clr-grey);
+}
+.sidebar-icon-container .icon.size-xs,.nav-icon-txt{
+    color: var(--clr-white);
+}

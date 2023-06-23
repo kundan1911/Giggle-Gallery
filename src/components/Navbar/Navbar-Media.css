@@ -1,0 +1,42 @@
+@media only screen and (max-width: 37.5em) {
+  .search-container {
+    display: none;
+  }
+  .mobile-search-btn {
+    display: inline-block;
+  }
+  .search-btn {
+    width: 3.25rem;
+    height: 3.25rem;
+  }
+  .search-container:hover {
+    width: 100%;
+    border: 2px solid var(--clr-black);
+  }
+  .avatar-container {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .search-btn {
+    top: 1px;
+    right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .avatar-container {
+    width: 3rem;
+    height: 3rem;
+  }
+  .avatar-container span {
+    font-size: 1.5rem;
+  }
+  .search-container {
+    height: 3rem;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .avatar-container {
+    margin-left: 0;
+  }
+}
